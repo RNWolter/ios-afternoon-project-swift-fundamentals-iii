@@ -45,8 +45,8 @@ class ViewController: UIViewController {
             return
         }
         
-//        toCurrencyTextField.text = currencyFormatter.string(from: NSNumber(value: userInput))
-        toCurrencyTextField.text = String(convert(userInput))
+//       toCurrencyTextField.text = currencyFormatter.string(from: NSNumber(value: userInput))
+       toCurrencyTextField.text = String(convert(userInput))
         
         
     }
